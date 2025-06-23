@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  background: linear-gradient(to bottom, #e0f2ff, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.history {
+  margin-top: 30px;
+}
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+.history li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
